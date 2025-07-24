@@ -11,43 +11,11 @@
     <h2>IMC</h2>
     <input type="text" id="peso" placeholder="peso">
     <input type="text" id="altura" placeholder="altura">
-    <button onclick="calcularIMC()">Entrar</button>
     <div id="mensagem" class="mensagem"></div>
+    <button onclick="calcularIMC()">Entrar</button>
+    
+    <button onclick="window.location.href='menu.html'">Voltar</button>
   </div>
-
-  <div class="login-box">
-    <h2>Dados via cep</h2>
-    <input type="text" id="cep" placeholder="cep">
-    <button onclick="getEndereco()"> Buscar Endereco </button>
-    <p id="logradouro"></p>
-    <p id="bairro"></p>
-    <p id="cidade"></p>
-    <p id="estado"></p>
-    <p id="regiao"></p>
-    <script src="./js/endereco.js"></script>
-  </div>
-
-  <div class="login-box">
-    <h2>Conversor de Moedas</h2>
-    <input type="number" id="amount" placeholder="Valor"/>
-    <select id="currency">
-      <option value="USD">Dólar</option>
-      <option value="EUR">Euro</option>
-      <option value="GBP">Libra</option>
-      <option value="JPY">Iene Japonês</option>
-      <option value="BRL">Real Brasileiro</option>
-    </select>
-    <select id="targetCurrency">
-      <option value="USD">Dólar</option>
-      <option value="EUR">Euro</option>
-      <option value="GBP">Libra</option>
-      <option value="JPY">Iene Japonês</option>
-      <option value="BRL">Real Brasileiro</option>
-    </select>
-    <button onclick="convertCurrency()">Converter</button>
-    <p id="conversionResult"></p>
-    <script src="./js/conversor.js"></script>
-    <script src="./js/dados.js"></script>
   <script src="./js/imc.js"></script>
 </body>
 </html>

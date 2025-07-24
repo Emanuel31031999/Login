@@ -7,6 +7,11 @@
       height: 100vh;
     }
 
+    .divs{
+      display: flex;
+      gap: 20px;
+    }
+
     .login-box {
       background: #fff;
       padding: 30px;
@@ -20,7 +25,7 @@
       margin-bottom: 20px;
     }
 
-    input[type="text"], input[type="password"] {
+    input[type="text"], input[type="password"], input[type="email"] {
       width: 100%;
       padding: 10px;
       margin: 10px 0;
@@ -37,6 +42,7 @@
       border-radius: 5px;
       cursor: pointer;
       font-weight: bold;
+      margin: 10px;
     }
 
     button:hover {

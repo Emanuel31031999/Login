@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="./css/global.css">
+</head> 
+<body>
+    <div class="login-box">
+        <form class="form-box">
+            <h2>Cadastro</h2>
+
+            <input type="text" id="nome" placeholder="Nome completo" required>
+            <input type="text" id="cidade" placeholder="Cidade" list="lista-cidades" required>
+            <datalist id="lista-cidades"></datalist>
+            <input type="email" id="email" placeholder="E-mail" required>
+            <input type="password" id="senha" placeholder="Senha" required>
+
+            <button type="button" onclick="cadastroUsuario()">Cadastrar</button>
+            <button type="button" onclick="window.location.href='index.html'">Voltar</button>
+            
+            <div id="mensagem"></div>
+
+        </form>
+    </div>
+
+    <script src="./js/cadastro.js"></script>
+</body>
+</html>
+
+

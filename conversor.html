@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <title>Cadastro</title>
+        <link rel="stylesheet" href="./css/global.css">
+    </head> 
+    <body>
+        <div class="login-box">
+            <h2>Conversor de Moedas</h2>
+            <input type="number" id="amount" placeholder="Valor"/>
+            <select id="currency">
+              <option value="USD">Dólar</option>
+              <option value="EUR">Euro</option>
+              <option value="GBP">Libra</option>
+              <option value="JPY">Iene Japonês</option>
+              <option value="BRL">Real Brasileiro</option>
+            </select>
+            <select id="targetCurrency">
+              <option value="USD">Dólar</option>
+              <option value="EUR">Euro</option>
+              <option value="GBP">Libra</option>
+              <option value="JPY">Iene Japonês</option>
+              <option value="BRL">Real Brasileiro</option>
+            </select>
+            <button onclick="converterMoeda()">Converter</button>
+            <button onclick="window.location.href='menu.html'">Voltar</button>
+
+            <p id="conversionResult"></p>
+        </div>
+            <script src="./js/conversor.js"></script>
+        
+
+    </body>
+
+</html>

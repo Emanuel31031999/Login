@@ -6,6 +6,7 @@ function getEndereco() {
     const estado = document.getElementById("estado");
     const regiao = document.getElementById("regiao");
 
+
     // Resetando os campos com seus rótulos
     logradouro.innerText = "Logradouro:";
     bairro.innerText = "Bairro:";
